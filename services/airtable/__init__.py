@@ -1,7 +1,5 @@
-from .bookings import BookingsTable
-from .clients import ClientsTable
+from .base import AirtableBase
 
 __all__ = [
-    'BookingsTable',
-    'ClientsTable',
+    'AirtableBase',
 ]

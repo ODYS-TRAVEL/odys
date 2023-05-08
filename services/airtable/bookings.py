@@ -1,7 +1,7 @@
-from .base import Operations
+from .operations import Operations
 
-class BookingsTable(Operations):
+class BookingTable(Operations):
     table_name = 'Bookings'
 
-    def __init__(self, api_key, base_id):
-        super().__init__(api_key, base_id)
+    def __init__(self, base):
+        super().__init__(base)
