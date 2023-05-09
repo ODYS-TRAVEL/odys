@@ -30,3 +30,4 @@ typing_extensions==4.5.0
 urllib3==1.26.15
 wcwidth==0.2.6
 whitenoise==6.4.0
+dj-database-url==2.0.0
