@@ -9,3 +9,7 @@ class Agency(models.Model):
 
     def __str__(self):
         return self.user.username
+
+    class Meta:
+        verbose_name = 'Agency'
+        verbose_name_plural = 'Agencies'
