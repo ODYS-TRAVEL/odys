@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'clients.apps.ClientsConfig',
     'bookings.apps.BookingsConfig',
     'agencies.apps.AgenciesConfig',
+    'dmcs.apps.DmcsConfig',
 ]
 
 REST_FRAMEWORK = {
