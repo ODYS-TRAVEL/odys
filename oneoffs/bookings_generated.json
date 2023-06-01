@@ -1,0 +1,371 @@
+[
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1642352",
+            "client_profile": "Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.\n\nArthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Clémentine",
+            "last_name": "Cheriaux",
+            "country": "France",
+            "phone": "+33 6 00 00 00 00",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "2887070",
+        "client_product_title_edit": "Coba, en liberté",
+        "start_date": "2023-8-19",
+        "end_date": "2023-8-19",
+        "departure_time_edit": "08:30",
+        "client_hotel": "Hotel Coqui Coqui Coba",
+        "meeting_point_edit": "Hotel Coqui Coqui Coba",
+        "arrival_point": "",
+        "booking_details": "Le plus tôt possible",
+        "pax": 4,
+        "booking_options": "En français",
+        "agent_emails": [
+            "vlegue@voyageursdumonde.fr"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            }
+        ],
+        "client": {
+            "client_id": "1651853",
+            "client_profile": "",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Richard",
+            "last_name": "PICHARD",
+            "country": "France",
+            "phone": "+33 6 00 00 00 01",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3047551",
+        "client_product_title_edit": "Transfert privé aéroport / zone hôtelière",
+        "start_date": "2023-11-15",
+        "end_date": "2023-11-15",
+        "departure_time_edit": "15:35",
+        "client_hotel": "",
+        "meeting_point_edit": "Hotel Condesa",
+        "arrival_point": "Aéroport CDMX ",
+        "booking_details": "",
+        "pax": 2,
+        "booking_options": "Privé, SUV",
+        "agent_emails": [
+            "vlegue@voyageursdumonde.fr"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "John",
+                "last_name": "Doe",
+                "birthday": "2000-01-30"
+            },
+            {
+                "surname": "Eggs",
+                "last_name": "Ham",
+                "birthday": "1994-12-24"
+            },
+            {
+                "surname": "Fernando",
+                "last_name": "Palafox",
+                "birthday": "1996-05-12"
+            }
+        ],
+        "client": {
+            "client_id": "1659399",
+            "client_profile": "Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.\n\nArthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Anthony",
+            "last_name": "SARLES",
+            "country": "France",
+            "phone": "+33 6 00 00 00 02",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3036375",
+        "client_product_title_edit": "Dîner au restaurant Ix Kat Ik",
+        "start_date": "2024-1-5",
+        "end_date": "2024-1-5",
+        "departure_time_edit": "",
+        "client_hotel": "",
+        "meeting_point_edit": "Lien restaurant ",
+        "arrival_point": "",
+        "booking_details": "",
+        "pax": 8,
+        "booking_options": "",
+        "agent_emails": [
+            "vlegue@voyageursdumonde.fr"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1662421",
+            "client_profile": "",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Sofía",
+            "last_name": "ROSENSTRAUCH",
+            "country": "France",
+            "phone": "+33 6 00 00 00 03",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3033436",
+        "client_product_title_edit": "CASA CARMEN REFORMA",
+        "start_date": "2023-5-1",
+        "end_date": "2023-5-4",
+        "departure_time_edit": "15:00",
+        "client_hotel": "",
+        "meeting_point_edit": "",
+        "arrival_point": "",
+        "booking_details": "Le client est végétarien",
+        "pax": 2,
+        "booking_options": "",
+        "agent_emails": [
+            "vlegue@voyageursdumonde.fr"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1646012",
+            "client_profile": "",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Léopold",
+            "last_name": "Girardin",
+            "country": "France",
+            "phone": "+33 6 00 00 00 04",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3037805",
+        "client_product_title_edit": "HACIENDA CHICHEN",
+        "start_date": "2023-5-2",
+        "end_date": "2023-5-3",
+        "departure_time_edit": "15:00",
+        "client_hotel": "",
+        "meeting_point_edit": "",
+        "arrival_point": "",
+        "booking_details": "Favor de informarnos si hay algunos eventos / bodas durante la estancia de nuestro huéspedes. Mil gracias. ",
+        "pax": 7,
+        "booking_options": "",
+        "agent_emails": [
+            "vlegue@voyageursdumonde.fr"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1646012",
+            "client_profile": "Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.\n\nArthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Léopold",
+            "last_name": "Girardin",
+            "country": "Germany",
+            "phone": "+49 6 00 00 00 00",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3037805",
+        "client_product_title_edit": "HACIENDA CHICHEN",
+        "start_date": "2023-5-2",
+        "end_date": "2023-5-3",
+        "departure_time_edit": "",
+        "client_hotel": "",
+        "meeting_point_edit": "",
+        "arrival_point": "",
+        "booking_details": "ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",
+        "pax": 7,
+        "booking_options": "",
+        "agent_emails": [
+            "operations@worldia.com"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1646012",
+            "client_profile": "",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Léopold",
+            "last_name": "Girardin",
+            "country": "Germany",
+            "phone": "+49 6 00 00 00 01",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3037805",
+        "client_product_title_edit": "HACIENDA CHICHEN",
+        "start_date": "2023-5-2",
+        "end_date": "2023-5-3",
+        "departure_time_edit": "",
+        "client_hotel": "",
+        "meeting_point_edit": "",
+        "arrival_point": "",
+        "booking_details": "ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",
+        "pax": 7,
+        "booking_options": "",
+        "agent_emails": [
+            "operations@worldia.com"
+        ]
+    },
+    {
+        "participants": [
+            {
+                "surname": "Rémi",
+                "last_name": "CHERIAUX",
+                "birthday": "1989-07-10"
+            },
+            {
+                "surname": "Arthur",
+                "last_name": "CHERIAUX",
+                "birthday": "1993-01-29"
+            },
+            {
+                "surname": "Ondine",
+                "last_name": "CHERIAUX",
+                "birthday": "2017-08-23"
+            },
+            {
+                "surname": "Aurélie",
+                "last_name": "CHERIAUX",
+                "birthday": "2020-07-15"
+            }
+        ],
+        "client": {
+            "client_id": "1658360",
+            "client_profile": "Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.\n\nArthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",
+            "dmc": "recFRCXOPwTSFEuSt",
+            "surname": "Gérard",
+            "last_name": "OLIVOTTI",
+            "country": "Germany",
+            "phone": "+49 6 00 00 00 02",
+            "email": "juliomenaya@gmail.com"
+        },
+        "agency_booking_id": "3022323",
+        "client_product_title_edit": "Chichen Itza - Visite archéologique, en privé - 1h30",
+        "start_date": "2023-11-27",
+        "end_date": "2023-11-27",
+        "departure_time_edit": "08:00",
+        "client_hotel": "Hacienda Chichen",
+        "meeting_point_edit": "Hacienda Chichen",
+        "arrival_point": "",
+        "booking_details": "ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",
+        "pax": 2,
+        "booking_options": "En allemand",
+        "agent_emails": [
+            "operations@worldia.com"
+        ]
+    }
+]

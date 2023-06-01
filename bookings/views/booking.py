@@ -6,7 +6,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
 from bookings.serializer import BookingSerializer
-from services import AirtableBase
+from services import airtable_service
 
 
 class BookingView(ViewSet):
@@ -17,12 +17,14 @@ class BookingView(ViewSet):
             booking_data = BookingSerializer(data=request.data)
             booking_data.is_valid(raise_exception=True)
             client_data = booking_data.validated_data.pop('client')
-            client_data['LINK Agency'] = [request.user.agency.airtable_agency_id]
-            airtable = AirtableBase(settings.AIRTABLE_API_TOKEN, settings.AIRTABLE_BASE_ID)
-            client = airtable.clients.operation('create', client_data)
+            project_data = client_data.pop('project')
+            project_data['agency_link'] = [request.user.agency.airtable_agency_id]
+            project = airtable_service.projects.operation('create', project_data)
+            client_data['project'] = [project['id']]
+            client = airtable_service.clients.operation('create', client_data)
             client_id = client['id']
-            booking_data.validated_data['LINK Client'] = [client_id]
-            booking = airtable.bookings.operation('create', booking_data.validated_data)
+            booking_data.validated_data['client_link'] = [project['id']]
+            booking = airtable_service.bookings.operation('create', booking_data.validated_data)
             bookind_id = booking['id']
         except HTTPError as e:
             return Response({'message': json.loads(e.response.text)}, status=e.response.status_code)

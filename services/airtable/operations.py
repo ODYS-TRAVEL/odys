@@ -2,6 +2,9 @@ from requests.exceptions import HTTPError
 
 
 class Operations():
+    '''
+        https://pyairtable.readthedocs.io/en/latest/api.html
+    '''
     def __init__(self, base):
         self.base = base
 

@@ -1,6 +1,6 @@
 
-from .airtable import AirtableBase
+from .airtable import airtable_service
 
 __all__ = [
-    'AirtableBase',
+    'airtable_service',
 ]

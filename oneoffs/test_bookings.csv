@@ -1,0 +1,43 @@
+API label,booking_id,product_name,Start_Date,End_Date,Departure_time,Client_Hotel,Meeting_Point,Arrival_Point,Status,Booking_Details,Pax,"Participants ",Options,Agent's email,dmc_name,Client_ID,Client_Last_Name,Client_Name,Client_Profile,Client_type,Client_Country,Client_Phone,Agency_Id
+Airtable field,Agency booking ID,"OLD : Product Name for client
+NEW : Client's product title - FR",Start Date,"""OLD : Fin servicio
+NEW : End date""",Departure time,Client's hotel,"OLD : Conf. Pick Up
+NEW : Meeting point",Arrival Point,Operation Status,"OLD Booking details
+NEW Booking Details from Agency",Pax,"Participants ",Booking _Options,email,dmc_name,Num Dossier,NOM,Prénom,Profil client,source,Pays client,Téléphone,agency_link
+,2887070,"Coba, en liberté",19/8/2023,19/8/2023,08:30:00,Hotel Coqui Coqui Coba,Hotel Coqui Coqui Coba,,Revision pending,Le plus tôt possible,4,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",En français,vlegue@voyageursdumonde.fr,Mexikoo,1642352,Cheriaux,Clémentine,"Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.
+
+Arthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",b2b,France,+33 6 00 00 00 00,Voyageurs recWFYyDPcCcfK72d
+,3047551,Transfert privé aéroport / zone hôtelière,15/11/2023,15/11/2023,15:35:00,,Hotel Condesa,"Aéroport CDMX ",Revision pending,,2,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993","Privé, SUV",vlegue@voyageursdumonde.fr,Mexikoo,1651853,PICHARD,Richard,,b2b,France,+33 6 00 00 00 01,Voyageurs recWFYyDPcCcfK72d
+,3036375,Dîner au restaurant Ix Kat Ik,5/1/2024,5/1/2024,,,"Lien restaurant ",,Revision pending,,8,"John, Doe, 30/01/2000
+Eggs, Ham, 24/12/1994
+Fernando, Palafox, 12/05/1996",,vlegue@voyageursdumonde.fr,Mexikoo,1659399,SARLES,Anthony,"Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.
+
+Arthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",b2b,France,+33 6 00 00 00 02,Voyageurs recWFYyDPcCcfK72d
+,3033436,CASA CARMEN REFORMA,1/5/2023,4/5/2023,15:00:00,,,,Revision pending,Le client est végétarien,2,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",,vlegue@voyageursdumonde.fr,Mexikoo,1662421,ROSENSTRAUCH,Sofía,,b2b,France,+33 6 00 00 00 03,Voyageurs recWFYyDPcCcfK72d
+,3037805,HACIENDA CHICHEN,2/5/2023,3/5/2023,15:00:00,,,,Revision pending,"Favor de informarnos si hay algunos eventos / bodas durante la estancia de nuestro huéspedes. Mil gracias. ",7,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",,vlegue@voyageursdumonde.fr,Mexikoo,1646012,Girardin,Léopold,,b2b,France,+33 6 00 00 00 04,Voyageurs recWFYyDPcCcfK72d
+,3037805,HACIENDA CHICHEN,2/5/2023,3/5/2023,,,,,Revision pending,"ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",7,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",,operations@worldia.com,Mexikoo,1646012,Girardin,Léopold,"Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.
+
+Arthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",b2b,Germany,+49 6 00 00 00 00,WorldiarecoTorxHkMl5OCvK
+,3037805,HACIENDA CHICHEN,2/5/2023,3/5/2023,,,,,Revision pending,"ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",7,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",,operations@worldia.com,Mexikoo,1646012,Girardin,Léopold,,b2b,Germany,+49 6 00 00 00 01,WorldiarecoTorxHkMl5OCvK
+,3022323,"Chichen Itza - Visite archéologique, en privé - 1h30",27/11/2023,27/11/2023,08:00:00,Hacienda Chichen,Hacienda Chichen,,Revision pending,"ADDED VALUE VOYAGEURS DU MONDE : Welcome Cocktail ",2,"Rémi, CHERIAUX, 10/07/1989 
+Arthur, CHERIAUX, 29/01/1993
+Ondine, CHERIAUX, 23/08/2017 
+Aurélie, CHERIAUX, 15/07/2020",En allemand,operations@worldia.com,Mexikoo,1658360,OLIVOTTI,Gérard,"Rémi est un client masculin de 32 ans, né le 10 juillet 1989. Il est probablement en pleine période d'activité professionnelle et cherche à tirer le meilleur parti de son temps libre. Il pourrait être intéressé par des produits et services qui offrent une grande valeur pour leur coût et qui peuvent être utilisés efficacement sans prendre trop de temps.
+
+Arthur est un client masculin de 28 ans, né le 29 janvier 1993. Il est probablement en début de carrière et cherche à explorer différentes options pour optimiser son temps libre. Il pourrait être intéressé par des produits et services qui sont innovants et qui offrent une expérience client unique.",b2b,Germany,+49 6 00 00 00 02,WorldiarecoTorxHkMl5OCvK
