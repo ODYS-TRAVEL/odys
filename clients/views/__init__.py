@@ -1,5 +1,6 @@
-from .client import ClientView
+from .client import ClientView, ClientMixin
 
 __all__ = [
     'ClientView',
+    'ClientMixin',
 ]

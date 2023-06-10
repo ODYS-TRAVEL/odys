@@ -28,7 +28,6 @@ class BookingSerializer(serializers.Serializer):
     participants = ParticipantSerializer(many=True)
     booking_options = serializers.CharField(max_length=400, allow_null=True, required=False, allow_blank=True)
     agent_emails = serializers.ListField(child=serializers.CharField(max_length=400))
-    client = ClientSerializer()
 
     def validate_departure_time_edit(self, value):
         if not value:
