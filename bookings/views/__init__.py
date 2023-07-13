@@ -1,5 +1,6 @@
-from .booking import BookingView
+from .booking import ClientsBookingView, AgenciesBookingView
 
 __all__ = [
-    'BookingView',
+    'ClientsBookingView',
+    'AgenciesBookingView',
 ]
