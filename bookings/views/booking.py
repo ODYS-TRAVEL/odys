@@ -4,7 +4,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
-from bookings.serializer import BookingSerializer
+from bookings.serializer import BookingSerializer, AirtableBookingSerializer
 from services import airtable_service
 
 from clients.views import ClientMixin
@@ -29,39 +29,7 @@ class ClientsBookingView(ViewSet, ClientMixin):
 
 class AgenciesBookingView(ViewSet):
     permission_classes = [IsAuthenticated]
-
-    def deserialize(self, airtable_booking):
-        images = []
-        for img in airtable_booking['fields'].get('images', []):
-            images.append(img['url'])
-        fields = [
-            'agency_booking_id',
-            'client_product_title_edit',
-            'start_date',
-            'end_date',
-            'departure_time_edit',
-            'meeting_point_edit',
-            'arrival_point',
-            'operation_status',
-            'pax',
-            'participants',
-            'description_fr_edit',
-            'hotel_description_fr',
-            'city',
-            'duration_edit',
-            'bring_edit',
-            'included_edit',
-            'checkin_checkout',
-            'number_nights',
-            'supplier_booking_number',
-            'breakfast',
-            'breakfast_hour',
-            'transfer_distance',
-            'number_days_rental'
-        ]
-        booking = {field: airtable_booking['fields'].get(field, '') for field in fields}
-        booking['images'] = images
-        return booking
+    serializer = AirtableBookingSerializer
 
     def retrieve(self, request, pk=None, **kwargs):
         agency_id = request.user.agency.airtable_agency_id
@@ -69,5 +37,6 @@ class AgenciesBookingView(ViewSet):
         agency_name = agency['fields']['agency']
         formula = f'AND(agency_booking_id = "{pk}", client_type = "{agency_name}", hidden_service = "")'
         bookings = airtable_service.bookings.operation('all', formula=formula)
-        response = [self.deserialize(booking) for booking in bookings]
-        return Response(response)
+        serialized_data = self.serializer(data=[b['fields'] for b in bookings], many=True)
+        serialized_data.is_valid(raise_exception=True)
+        return Response(self.serializer.from_airtable_to_api(serialized_data.data))
