@@ -1,5 +1,6 @@
-from .booking import BookingSerializer
+from .booking import BookingSerializer, AirtableBookingSerializer
 
 __all__ = [
     'BookingSerializer',
+    'AirtableBookingSerializer'
 ]
