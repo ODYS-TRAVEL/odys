@@ -60,6 +60,10 @@ class BookingSerializer(serializers.Serializer):
         return data
 
 
+class BookingImagesSerializer(serializers.Serializer):
+    url = serializers.CharField(max_length=1000)
+
+
 class AirtableBookingSerializer(serializers.Serializer):
     names_changer = {
         'client_product_title_edit': 'product_title',
@@ -102,6 +106,7 @@ class AirtableBookingSerializer(serializers.Serializer):
     total_selling_price_usd_edit = serializers.CharField(max_length=100, required=False, allow_blank=True, default='')
     comment_for_travelers = serializers.CharField(max_length=1000, required=False, allow_blank=True, default='')
     dmc_comment_for_agency = serializers.CharField(max_length=1000, required=False, allow_blank=True, default='')
+    images = BookingImagesSerializer(many=True, required=False, default=[])
 
 
     @classmethod
